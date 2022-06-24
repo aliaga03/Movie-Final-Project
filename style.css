@@ -211,7 +211,7 @@ a {
     transition: all 0.5s;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 475px) {
     .featured-desc {
         display: none;
     }
