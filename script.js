@@ -6,7 +6,7 @@ searchButton.addEventListener('click', function() {
         .then(response => response.json())
         .then(response => {
             const movies = response.Search;
-            // cari tau fungsi let cards di UNPAS
+   
             let cards = '';
             movies.forEach(mov => cards += showCards(mov));
             const movieContainer = document.querySelector('.movie-list');
